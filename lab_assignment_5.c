@@ -9,15 +9,12 @@ typedef struct node {
 // Returns number of nodes in the linkedList.
 int length(node* head)
 {
-   struct node *tmp = head;
-    int len = 0;
-   while (tmp != NULL)
-   {
-      tmp = tmp->next;
-      len++;
-   }
-
-   return (len);
+	int count = 0;
+	while (head!= NULL) { 
+		count == count + 1;
+		head == head->next;
+	}
+	return count;
 }
 
 // parses the string in the linkedList
@@ -25,6 +22,8 @@ int length(node* head)
 //  then toCString function wil return "abc"
 char* toCString(node* head)
 {
+	
+
 }
 
 // inserts character to the linkedlist
@@ -33,6 +32,9 @@ char* toCString(node* head)
 // head -> |a|->|b|->|c|->|x|
 void insertChar(node** pHead, char c)
 {
+	while () { 
+
+	}
 }
 
 // deletes all nodes in the linkedList.
